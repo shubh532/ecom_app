@@ -22,10 +22,10 @@ function AddProduct(props) {
   const onSubmitForm = (event) => {
     event.preventDefault();
     props.getData(ProductID, sellPrice, ProductName, Category);
-    // setProductID('')
-    // setsellPrice('')
-    // setProductName("")
-    // setCategory("")
+    setProductID('')
+    setsellPrice('')
+    setProductName("")
+    setCategory("Food")
   };
   return (
     <form onSubmit={onSubmitForm}>
